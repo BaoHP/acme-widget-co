@@ -39,10 +39,10 @@ The company sells three products:
 1. Clone the repository:
    ```bash
    git clone git@github.com:BaoHP/acme-widget-co.git
-   cd acme-basket
+   cd acme-widget-co
 2. Run the Ruby file:
    ```bash
-   ruby basket.rb
+   ruby aplication.rb
 
 ## Example Baskets and Expected Totals
 
@@ -53,4 +53,4 @@ Here are some example baskets and expected totals to help you check your impleme
 | B01, G01                    | $37.85  |
 | R01, R01                    | $54.37  |
 | R01, G01                    | $60.85  |
-| B01, B01, R01, R01, R01     | $98.27  |
+| B01, B01, R01, R01, R01     | $98.28  |
