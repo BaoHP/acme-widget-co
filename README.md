@@ -38,6 +38,6 @@ The company sells three products:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your_username>/acme-basket.git
+   git clone git@github.com:BaoHP/acme-widget-co.git
    cd acme-basket
 
