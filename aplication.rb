@@ -6,11 +6,11 @@ class Basket
     @items = []
   end
 
-  def add(code)
+  def add_product(code)
     @items << code
   end
 
-  def total
+  def total_cost
     product_total = calculate_product_total
     delivery = calculate_delivery(product_total)
     (product_total + delivery).round(2)
@@ -72,8 +72,8 @@ offers = [
 # -------------------------------Test_case-------------------------------
 def run_case(codes, products, delivery_charge_rules, offers)
   basket = Basket.new(products:, delivery_charge_rules:, offers:)
-  codes.each { |c| basket.add(c) }
-  puts "Products: #{codes.join(', ')} => Total: $#{'%.2f' % basket.total}"
+  codes.each { |c| basket.add_product(c) }
+  puts "Products: #{codes.join(', ')} => Total: $#{'%.2f' % basket.total_cost}"
 end
 
 # -------------------------------Result----------------------------------
