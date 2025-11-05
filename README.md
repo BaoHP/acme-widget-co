@@ -1,5 +1,5 @@
 
-# Acme Widget Co — Basket System (Proof of Concept)
+# Acme Widget Co — Basket System
 
 ## Overview
 
